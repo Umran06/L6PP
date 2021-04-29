@@ -108,7 +108,7 @@ class ProductTableSeeder extends Seeder
         $product->save();
         
         $product = new \App\Product([
-        'imagePath' => 'images/13.png',
+        'imagePath' => 'images/13_14_15.png',
         'title' => 'Butter Toast',
         'description'=> 'Two delicious slices of bread, freshly made straight out the toaster spread with a nice fresh batch of butter.',
         'price' => 1.00
@@ -116,7 +116,7 @@ class ProductTableSeeder extends Seeder
         $product->save();
 
         $product = new \App\Product([
-        'imagePath' => 'images/14.png',
+        'imagePath' => 'images/13_14_15.png',
         'title' => 'Jam Toast',
         'description'=> 'Two delicious slices of bread, freshly made straight out the toaster spread with a nice fresh batch of jam.',
         'price' => 0.75
@@ -124,7 +124,7 @@ class ProductTableSeeder extends Seeder
         $product->save();
 
         $product = new \App\Product([
-        'imagePath' => 'images/15.png',
+        'imagePath' => 'images/13_14_15.png',
         'title' => 'Honey Toast',
         'description'=> 'Two delicious slices of bread, freshly made straight out the toaster spread with a nice fresh batch of honey.',
         'price' => 0.75

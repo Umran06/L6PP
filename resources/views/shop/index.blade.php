@@ -311,7 +311,7 @@
             <div class="thumbnail">
                 <img src= "images/21.png" alt="..." class="img-responsive">
                 <div class="caption">
-                    <h3>Chocalate Muffin </h3>
+                    <h3>Chocolate Muffin </h3>
                     <p class="description"> House made muffin with layers of decadant chocolate topped with espresso sugar.</p>
                     <div class="clearfix">
                         <div class="pull-left price">£2.25</div>

@@ -65,7 +65,7 @@ class ProductController extends Controller
         try {
             $charge = Charge::create(array(
                 "amount" => $cart->totalPrice * 100,
-                "currency" => "usd",
+                "currency" => "gbp",
                 "source" => $request->input('stripeToken'), // obtained with Stripe.js
                 "description" => "Test Charge"
             ));

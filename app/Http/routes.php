@@ -16,10 +16,19 @@ Route::get('/', [
     'as' => 'product.index'
 ]);
 
-
 Route::get('/add-to-cart/{id}', [
     'uses' => 'ProductController@getAddToCart',
     'as' => 'product.addToCart'
+]);
+
+Route::get('/reduce/{id}', [
+    'uses' => 'ProductController@getReduceByOne',
+    'as' => 'product.reduceByOne'
+]);
+
+Route::get('/remove/{id}', [
+    'uses' => 'ProductController@getRemoveItem',
+    'as' => 'product.remove'
 ]);
 
 Route::get('/shopping-cart', [
@@ -47,13 +56,11 @@ Route::get('/signup', [
     'middleware' => 'guest'
 ]);
 
-
 Route::post('/signup', [
     'uses' => 'UserController@postSignup',
     'as' => 'user.signup',
     'middleware' => 'guest' 
 ]);
-
 
 Route::get('/signin', [
     'uses' => 'UserController@getSignin',
@@ -61,20 +68,17 @@ Route::get('/signin', [
     'middleware' => 'guest'
 ]);
 
-
 Route::post('/signin', [
     'uses' => 'UserController@postSignin',
     'as' => 'user.signin',
     'middleware' => 'guest' 
 ]);
 
-
 Route::get('/profile', [
     'uses' => 'UserController@getProfile',
     'as' => 'user.profile',
     'middleware' => 'auth' 
 ]);
-
 
 Route::get('/logout', [
     'uses' => 'UserController@getLogout',

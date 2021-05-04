@@ -10,8 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::get('/', [
+Route::get('/menu', [
     'uses' => 'ProductController@getIndex',
     'as' => 'product.index'
 ]);

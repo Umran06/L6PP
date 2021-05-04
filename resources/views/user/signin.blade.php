@@ -1,6 +1,9 @@
 @extends('layouts.master')
-
+@section('title')
+    Sign-in
+@endsection
 @section ('content')
+
 <div class="row">        
     <div class="col-md-4 col-md-offset-4">
         <h1>Sign In</h1>
@@ -10,7 +13,7 @@
         <p> {{ $error }} </p>
         @endforeach
         </div>
-        @endif
+        @endif 
         <form action="{{ route('user.signin') }}" method="post">
             <div class="form-group">
                 <label for="email">E-mail</label>

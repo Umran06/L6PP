@@ -3,6 +3,11 @@
     
 }
 
+.card img {
+    max-height: 75px;
+    
+}
+
 .thumbnail .description {
     color: #7f7f7f;
 }

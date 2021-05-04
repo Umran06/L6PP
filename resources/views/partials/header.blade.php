@@ -8,10 +8,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ route('product.index') }}">Blue Water Cafè</a>
         </div>
+        
+        <div class="col-sm-5 col-md-6">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-center">
+            <li><a href="/">HOME</a></li>
+            <li><a href="#mu-about-us">ABOUT US</a></li>                       
+            <li><a href="{{ route('product.index') }}">MENU</a></li>                       
+            <li><a href="#mu-reservation">RESERVATION</a></li>                       
+            <li><a href="#mu-contact">CONTACT</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
+ 
+        
+         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ route('product.shoppingCart') }}"><i class="fa fa-shopping-cart" aria-hidden="true">

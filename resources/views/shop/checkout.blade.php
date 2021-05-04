@@ -5,10 +5,13 @@
 @endsection
 
 @section('content')
-    <div class="row">
+
+  <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <div class="card">
+        <img src="images/C.png" alt="..." class="img-responsive">
             <h1>Checkout</h1>
-            <h4>Your Total: ${{ $total }}</h4>
+            <h4>Your Total: £{{ $total }}</h4>
             <div id="charge-error" class="alert alert-danger {{ !Session::has('error') ? 'hidden' : ''  }}">
                 {{ Session::get('error') }}
             </div>

@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield('title')</title>
+    <meta name ="viewpoint" content="width-device-width, inital-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ URL::to('src/css/app.css') }}">
     <link rel="stylesheet" href='src/css/app.css'>
     
+    
 
     @yield('styles')
 </head>
+<link rel="shortcut icon" href="images/logo1.png">
 <body>
 @include('partials.header')
 <div class="container">

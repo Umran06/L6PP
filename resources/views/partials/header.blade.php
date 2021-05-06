@@ -14,10 +14,9 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-center">
             <li><a href="/">HOME</a></li>
-            <li><a href="#mu-about-us">ABOUT US</a></li>                       
-            <li><a href="{{ route('product.index') }}">MENU</a></li>                       
-            <li><a href="#mu-reservation">RESERVATION</a></li>                       
-            <li><a href="#mu-contact">CONTACT</a></li> 
+            <li><a href="about-us">ABOUT US</a></li>                       
+            <li><a href="{{ route('product.index') }}">MENU</a></li>                                              
+            <li><a href="contact">CONTACT</a></li> 
           </ul>                            
         </div><!--/.nav-collapse -->       
       </div>          

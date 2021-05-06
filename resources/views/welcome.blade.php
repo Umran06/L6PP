@@ -27,4 +27,30 @@
             </div>
         </div>
 
+<!-- Start Map section -->
+  <section id="mu-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152052.3465946326!2d-2.0786681976015084!3d53.45384110496289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb5ddf34a7a55%3A0x83bbfa55453918d7!2sGracies%20Cafe!5e0!3m2!1sen!2suk!4v1620322972605!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <!-- End Map section -->
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+        <div class="footer-area">
+           <div class="footer-social">
+            <a href="www.facebook.com"><span class="fa fa-facebook"></span></a>
+            <a href=""><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+            <a href="#"><span class="fa fa-snapchat"></span></a>
+          </div>
+            <div class="mu-footer-copyright">
+            <p>&copy; Copyright All right reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
 @endsection  

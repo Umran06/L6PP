@@ -19,6 +19,14 @@ Route::get('/menu', [
     'as' => 'product.index'
 ]);
 
+Route::get('/about-us', function () {
+    return view('header.about');
+});
+
+Route::get('/contact', function () {
+    return view('header.contact');
+});
+
 Route::get('/add-to-cart/{id}', [
     'uses' => 'ProductController@getAddToCart',
     'as' => 'product.addToCart'

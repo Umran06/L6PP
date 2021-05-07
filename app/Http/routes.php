@@ -23,9 +23,18 @@ Route::get('/about-us', function () {
     return view('header.about');
 });
 
-Route::get('/contact', function () {
-    return view('header.contact');
-});
+Route::get('/contact', [
+    'uses' => 'PagesController@getContact',
+    'as' => 'pages.contact'
+]);
+
+Route::post('/contact', [
+    'uses' => 'PagesController@postContact',
+    'as' => 'pages.contact'
+]);
+
+//Route::get('contact', 'PagesController@getContact');
+//Route::post('contact', 'PagesController@postContact');
 
 Route::get('/add-to-cart/{id}', [
     'uses' => 'ProductController@getAddToCart',

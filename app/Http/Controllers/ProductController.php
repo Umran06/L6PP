@@ -94,7 +94,7 @@ class ProductController extends Controller
                 "amount" => $cart->totalPrice * 100,
                 "currency" => "gbp",
                 "source" => $request->input('stripeToken'), // obtained with Stripe.js
-                "description" => "Test Charge"
+                "description" => "Customer Payment"
             ));
             $order = new Order();
             $order->cart = serialize($cart);

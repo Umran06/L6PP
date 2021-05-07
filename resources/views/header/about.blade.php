@@ -16,29 +16,31 @@
           <div class="mu-about-us-area">
 
             <div class="mu-title">
-              <span class="mu-subtitle">Discover</span>
-              <h2>ABOUT US</h2>
+              <h1>ABOUT US</h1>
             </div>
 
             <div class="row">
               <div class="col-md-6">
                <div class="mu-about-us-left">     
-                <img src="assets/img/about-us.png" alt="img">           
+                <img src="images/blue4.png" alt="img">           
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5">
                  <div class="mu-about-us-right">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>                              
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>                    
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                  </ul>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam.</p>  
-                </div>
+                 <h5>HOW IT ALL BEGAN</h5>
+<p>Our story goes back around 20 years, to our founder. Armed with a passion for coffee, he had a vision to create traditional Italian cafés across Europe; places that would serve very high quality coffee and serve as neighborhood meeting spots.
+We started off simply trying to make a few local independent coffee houses work. And they did! We never aspired to be a big company; in fact, even today we see ourselves as a start-up. We have grown one coffee, one customer and one store at a time – always trying to be the best at what we do.
+We have reinvested in the business to stay true to founding fathers original vision and we’ve done this with resilience and determination.
+</p>
+<h5> QUALITY AND CONSISTENCY </h5>
+
+<p>Making great coffee takes some doing.
+So, we built our own Roastery and created a unique award-winning coffee blend 
+(we regularly work on developing new and interesting blends too). And, importantly,
+we set up our espresso training school – where all our Baristas master the art of
+coffee making.
+ </p>
+                 </div>
               </div>
             </div>
           </div>

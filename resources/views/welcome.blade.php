@@ -53,9 +53,9 @@
         <div class="mu-footer-area">
            <div class="mu-footer-social">
             <a href="www.facebook.com"><span class="fa fa-facebook"></span></a>
-            <a href=""><span class="fa fa-twitter"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-            <a href="#"><span class="fa fa-snapchat"></span></a> 
+            <a href="www.twitter.com"><span class="fa fa-twitter"></span></a>
+            <a href="www.instagram.com"><span class="fa fa-instagram"></span></a>
+            <a href="www.Snapchat-Blue_Water_Cafe.com"><span class="fa fa-snapchat"></span></a> 
           </div>
           <div class="mu-footer-copyright">
             <p>&copy; Copyright Umran Hussain. All right reserved.</p>
